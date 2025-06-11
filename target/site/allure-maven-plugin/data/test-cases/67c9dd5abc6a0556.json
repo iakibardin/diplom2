@@ -1,0 +1,144 @@
+{
+  "uid" : "67c9dd5abc6a0556",
+  "name" : "getOrdersWithAuth",
+  "fullName" : "GetOrderForUserTest.getOrdersWithAuth",
+  "historyId" : "33773ea5d78dfdcfbc3d6c941d83832e",
+  "time" : {
+    "start" : 1749624117209,
+    "stop" : 1749624122677,
+    "duration" : 5468
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624117209,
+        "stop" : 1749624117751,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=bGlRm@tsr.ru, password=se73WaMG, name=eGLJDs)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Создание заказа с авотризацией",
+      "time" : {
+        "start" : 1749624117774,
+        "stop" : 1749624120881,
+        "duration" : 3107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{ingredients=[Ljava.lang.String;@5ee95d42}"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTM2OWVkMjgwMDAxYjYxNzdhYSIsImlhdCI6MTc0OTYyNDExOCwiZXhwIjoxNzQ5NjI1MzE4fQ.60jMb0rIcRztLM7yzE1vlnoZO4Haiq_J5JcB4EZR2ug"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение заказов конкретного пользователя с авторизацией",
+      "time" : {
+        "start" : 1749624120882,
+        "stop" : 1749624121694,
+        "duration" : 812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTM2OWVkMjgwMDAxYjYxNzdhYSIsImlhdCI6MTc0OTYyNDExOCwiZXhwIjoxNzQ5NjI1MzE4fQ.60jMb0rIcRztLM7yzE1vlnoZO4Haiq_J5JcB4EZR2ug"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624121722,
+        "stop" : 1749624122677,
+        "duration" : 955
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=bGlRm@tsr.ru, password=se73WaMG, name=eGLJDs)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTM2OWVkMjgwMDAxYjYxNzdhYSIsImlhdCI6MTc0OTYyNDExOCwiZXhwIjoxNzQ5NjI1MzE4fQ.60jMb0rIcRztLM7yzE1vlnoZO4Haiq_J5JcB4EZR2ug"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "GetOrderForUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrdersWithAuth"
+  }, {
+    "name" : "suite",
+    "value" : "GetOrderForUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67c9dd5abc6a0556.json",
+  "parameterValues" : [ ]
+}

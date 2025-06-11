@@ -1,0 +1,141 @@
+{
+  "uid" : "74902c1dced56abe",
+  "name" : "Повторная регистрация уже имеющегося пользователя",
+  "fullName" : "CreateValidUserTest.registerUserWithExistingEmail",
+  "historyId" : "410272de32c287cd770184caa1ac2162",
+  "time" : {
+    "start" : 1749624191861,
+    "stop" : 1749624194537,
+    "duration" : 2676
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624191861,
+        "stop" : 1749624192462,
+        "duration" : 601
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=qUVHw@sBH.ru, password=Abo733os, name=OdYZIm)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624192478,
+        "stop" : 1749624193041,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=RWwqv@CaO.ru, password=AYvBWMIB, name=kzSukm)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624193061,
+        "stop" : 1749624193446,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=RWwqv@CaO.ru, password=AYvBWMIB, name=kzSukm)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624193462,
+        "stop" : 1749624194537,
+        "duration" : 1075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=RWwqv@CaO.ru, password=AYvBWMIB, name=kzSukm)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTgxOWVkMjgwMDAxYjYxNzdmMyIsImlhdCI6MTc0OTYyNDE5MywiZXhwIjoxNzQ5NjI1MzkzfQ.SEcTUNq8OrsvO1gAmpCLZ49nCBJDl2xt0ZvrQa7Ufo0"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateValidUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerUserWithExistingEmail"
+  }, {
+    "name" : "suite",
+    "value" : "CreateValidUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74902c1dced56abe.json",
+  "parameterValues" : [ ]
+}

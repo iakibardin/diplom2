@@ -1,0 +1,120 @@
+{
+  "uid" : "ce46ead46d147aa2",
+  "name" : "getOrdersWithoutAuth",
+  "fullName" : "GetOrderForUserTest.getOrdersWithoutAuth",
+  "historyId" : "c7567d9fcb56174ba811b03514a14640",
+  "time" : {
+    "start" : 1749624113370,
+    "stop" : 1749624117157,
+    "duration" : 3787
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624113389,
+        "stop" : 1749624115307,
+        "duration" : 1918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=tvKpH@UPV.ru, password=8mnK7xOR, name=xXXBwI)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение заказов конкретного пользователя без авторизации",
+      "time" : {
+        "start" : 1749624115650,
+        "stop" : 1749624116062,
+        "duration" : 412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624116116,
+        "stop" : 1749624117148,
+        "duration" : 1032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=tvKpH@UPV.ru, password=8mnK7xOR, name=xXXBwI)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTMzOWVkMjgwMDAxYjYxNzdhOCIsImlhdCI6MTc0OTYyNDExNSwiZXhwIjoxNzQ5NjI1MzE1fQ.f_tPi9dC6qTWB3zXbM6QhGroIcyFRPs99Kj1inBRexE"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "GetOrderForUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrdersWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "GetOrderForUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce46ead46d147aa2.json",
+  "parameterValues" : [ ]
+}

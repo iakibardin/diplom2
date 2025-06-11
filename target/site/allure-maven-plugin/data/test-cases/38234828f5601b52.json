@@ -1,0 +1,123 @@
+{
+  "uid" : "38234828f5601b52",
+  "name" : "Регистрация валидного пользователя",
+  "fullName" : "CreateValidUserTest.registerUniqueUser",
+  "historyId" : "ef9620887826477c2667d48fca111e79",
+  "time" : {
+    "start" : 1749624194540,
+    "stop" : 1749624196726,
+    "duration" : 2186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624194541,
+        "stop" : 1749624195059,
+        "duration" : 518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=FPESi@tHm.ru, password=zPHrXLBg, name=MTQsjt)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624195071,
+        "stop" : 1749624195616,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=ZnQxL@fei.ru, password=kJbbuXIb, name=AuuHZe)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624195637,
+        "stop" : 1749624196725,
+        "duration" : 1088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=ZnQxL@fei.ru, password=kJbbuXIb, name=AuuHZe)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTgzOWVkMjgwMDAxYjYxNzdmNyIsImlhdCI6MTc0OTYyNDE5NSwiZXhwIjoxNzQ5NjI1Mzk1fQ.kj1_3gCuVrE82lMKfJjqMD86IitFe3sGzjAjqbMB--U"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateValidUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerUniqueUser"
+  }, {
+    "name" : "suite",
+    "value" : "CreateValidUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38234828f5601b52.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "785ffb436f72ce88",
+  "name" : "registerUserWithoutName",
+  "fullName" : "CreateInvalidUserTest.registerUserWithoutName",
+  "historyId" : "9c6af9ac58828adf41ccc6416daf3495",
+  "time" : {
+    "start" : 1749624197154,
+    "stop" : 1749624197628,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя без поля name",
+      "time" : {
+        "start" : 1749624197154,
+        "stop" : 1749624197609,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userWithoutName",
+        "value" : "UserWithoutName(email=dCnOW@PRh.ru, password=LKKhOV8p)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateInvalidUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerUserWithoutName"
+  }, {
+    "name" : "suite",
+    "value" : "CreateInvalidUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "785ffb436f72ce88.json",
+  "parameterValues" : [ ]
+}
