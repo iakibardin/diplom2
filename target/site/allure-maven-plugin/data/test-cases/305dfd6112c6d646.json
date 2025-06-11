@@ -1,0 +1,126 @@
+{
+  "uid" : "305dfd6112c6d646",
+  "name" : "Создание заказа с авторизацией",
+  "fullName" : "CreateOrderWithLoginTest.createCorrectOrderWithLogin",
+  "historyId" : "7c39813d94ecfc9031a045447f7d6978",
+  "time" : {
+    "start" : 1749624185196,
+    "stop" : 1749624189574,
+    "duration" : 4378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624185196,
+        "stop" : 1749624185753,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=aDilY@yEh.ru, password=C2WkibrK, name=hrvRHN)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Создание заказа с авотризацией",
+      "time" : {
+        "start" : 1749624185768,
+        "stop" : 1749624188596,
+        "duration" : 2828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{ingredients=[Ljava.lang.String;@7ddf193a}"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTdhOWVkMjgwMDAxYjYxNzdlYyIsImlhdCI6MTc0OTYyNDE4NiwiZXhwIjoxNzQ5NjI1Mzg2fQ.2Cg48bQeM3RVWT6Y3LzfXkhuiVk_8W4oJ-knVaccXdI"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624188631,
+        "stop" : 1749624189574,
+        "duration" : 943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=aDilY@yEh.ru, password=C2WkibrK, name=hrvRHN)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTdhOWVkMjgwMDAxYjYxNzdlYyIsImlhdCI6MTc0OTYyNDE4NiwiZXhwIjoxNzQ5NjI1Mzg2fQ.2Cg48bQeM3RVWT6Y3LzfXkhuiVk_8W4oJ-knVaccXdI"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderWithLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createCorrectOrderWithLogin"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderWithLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "305dfd6112c6d646.json",
+  "parameterValues" : [ ]
+}

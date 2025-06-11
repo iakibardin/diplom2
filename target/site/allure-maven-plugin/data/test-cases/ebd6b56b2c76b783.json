@@ -1,0 +1,126 @@
+{
+  "uid" : "ebd6b56b2c76b783",
+  "name" : "updateLoginUser[3 : update name]",
+  "fullName" : "UpdateUserTest.updateLoginUser[3 : update name]",
+  "historyId" : "c06fd7b3f78c0d3c1e05307fcfdeb2cc",
+  "time" : {
+    "start" : 1749624154649,
+    "stop" : 1749624156727,
+    "duration" : 2078
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624154649,
+        "stop" : 1749624155152,
+        "duration" : 503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=QQZkd@pGb.ru, password=1sfI1Ak3, name=OeGunr)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Изменение пользователя c авторизацией",
+      "time" : {
+        "start" : 1749624155167,
+        "stop" : 1749624155702,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "updateData",
+        "value" : "{password=1sfI1Ak3, name=QQbjWq, email=QQZkd@pGb.ru}"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTViOWVkMjgwMDAxYjYxNzdjZSIsImlhdCI6MTc0OTYyNDE1NSwiZXhwIjoxNzQ5NjI1MzU1fQ.WRA6gBhfXvvZ3xG1C8wozEnRNyINg40SPSrFPBqiAfA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624155713,
+        "stop" : 1749624156727,
+        "duration" : 1014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=QQZkd@pGb.ru, password=1sfI1Ak3, name=OeGunr)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTViOWVkMjgwMDAxYjYxNzdjZSIsImlhdCI6MTc0OTYyNDE1NSwiZXhwIjoxNzQ5NjI1MzU1fQ.WRA6gBhfXvvZ3xG1C8wozEnRNyINg40SPSrFPBqiAfA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UpdateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateLoginUser[3 : update name]"
+  }, {
+    "name" : "suite",
+    "value" : "UpdateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebd6b56b2c76b783.json",
+  "parameterValues" : [ ]
+}

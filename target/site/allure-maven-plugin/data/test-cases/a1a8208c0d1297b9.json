@@ -1,0 +1,126 @@
+{
+  "uid" : "a1a8208c0d1297b9",
+  "name" : "updateLoginUser[9 : update email + name without password]",
+  "fullName" : "UpdateUserTest.updateLoginUser[9 : update email + name without password]",
+  "historyId" : "b1af8e31d5ee89d18a4f988a1d191d9e",
+  "time" : {
+    "start" : 1749624179184,
+    "stop" : 1749624181153,
+    "duration" : 1969
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1749624179184,
+        "stop" : 1749624179750,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=idvmG@Ych.ru, password=oR9Ieygl, name=IViNsq)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Изменение пользователя c авторизацией",
+      "time" : {
+        "start" : 1749624179762,
+        "stop" : 1749624180195,
+        "duration" : 433
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "updateData",
+        "value" : "{name=jfrgPf, email=wBgyH@ykE.ru}"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTc0OWVkMjgwMDAxYjYxNzdlNiIsImlhdCI6MTc0OTYyNDE4MCwiZXhwIjoxNzQ5NjI1MzgwfQ.aaHD5pbGY-WmjmIhOBIO22cTUY0N2cPIXr0TJgxFA4M"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749624180206,
+        "stop" : 1749624181153,
+        "duration" : 947
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=idvmG@Ych.ru, password=oR9Ieygl, name=IViNsq)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDkyNTc0OWVkMjgwMDAxYjYxNzdlNiIsImlhdCI6MTc0OTYyNDE4MCwiZXhwIjoxNzQ5NjI1MzgwfQ.aaHD5pbGY-WmjmIhOBIO22cTUY0N2cPIXr0TJgxFA4M"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UpdateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateLoginUser[9 : update email + name without password]"
+  }, {
+    "name" : "suite",
+    "value" : "UpdateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1a8208c0d1297b9.json",
+  "parameterValues" : [ ]
+}

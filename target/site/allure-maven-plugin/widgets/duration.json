@@ -1,0 +1,461 @@
+[ {
+  "uid" : "f4b97022d6a9787c",
+  "name" : "loginCorrectUser",
+  "time" : {
+    "start" : 1749624128680,
+    "stop" : 1749624130784,
+    "duration" : 2104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cfe603ef96dfe34",
+  "name" : "Получение списка ингредиентов",
+  "time" : {
+    "start" : 1749624199411,
+    "stop" : 1749624199892,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8574f87863c9d3",
+  "name" : "updateLoginUser[1 : update email]",
+  "time" : {
+    "start" : 1749624145480,
+    "stop" : 1749624147499,
+    "duration" : 2019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74902c1dced56abe",
+  "name" : "Повторная регистрация уже имеющегося пользователя",
+  "time" : {
+    "start" : 1749624191861,
+    "stop" : 1749624194537,
+    "duration" : 2676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d21e4204d3478dd",
+  "name" : "updateLoginUser[6 : update name without another fields]",
+  "time" : {
+    "start" : 1749624166794,
+    "stop" : 1749624168771,
+    "duration" : 1977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3489354c7ca27c4d",
+  "name" : "updateWithoutLogin[7 : update email + password without name]",
+  "time" : {
+    "start" : 1749624172977,
+    "stop" : 1749624175121,
+    "duration" : 2144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9429cb5d64d8f7b3",
+  "name" : "updateLoginUser[2 : update password]",
+  "time" : {
+    "start" : 1749624150196,
+    "stop" : 1749624152298,
+    "duration" : 2102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "764251b474998480",
+  "name" : "updateWithoutLogin[0 : update all fields]",
+  "time" : {
+    "start" : 1749624143410,
+    "stop" : 1749624145476,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38234828f5601b52",
+  "name" : "Регистрация валидного пользователя",
+  "time" : {
+    "start" : 1749624194540,
+    "stop" : 1749624196726,
+    "duration" : 2186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1a8208c0d1297b9",
+  "name" : "updateLoginUser[9 : update email + name without password]",
+  "time" : {
+    "start" : 1749624179184,
+    "stop" : 1749624181153,
+    "duration" : 1969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f94bacfb8a80855",
+  "name" : "loginWithEmailNull",
+  "time" : {
+    "start" : 1749624139174,
+    "stop" : 1749624141231,
+    "duration" : 2057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dc1ab8d23feda7",
+  "name" : "updateLoginUser[0 : update all fields]",
+  "time" : {
+    "start" : 1749624141252,
+    "stop" : 1749624143407,
+    "duration" : 2155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ab0075207128a0b",
+  "name" : "Создание заказа без авторизации, без ингредиентов",
+  "time" : {
+    "start" : 1749624200818,
+    "stop" : 1749624201272,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c3114c9a25dbe26",
+  "name" : "loginWithoutPassword",
+  "time" : {
+    "start" : 1749624133142,
+    "stop" : 1749624135108,
+    "duration" : 1966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38609e4fd754acdc",
+  "name" : "loginWithEmailIncorrect",
+  "time" : {
+    "start" : 1749624137257,
+    "stop" : 1749624139172,
+    "duration" : 1915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "579480e9a466775c",
+  "name" : "updateWithoutLogin[1 : update email]",
+  "time" : {
+    "start" : 1749624147506,
+    "stop" : 1749624150192,
+    "duration" : 2686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebd6b56b2c76b783",
+  "name" : "updateLoginUser[3 : update name]",
+  "time" : {
+    "start" : 1749624154649,
+    "stop" : 1749624156727,
+    "duration" : 2078
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da02be27fd5af262",
+  "name" : "Создание заказа ьез авторизации, с некорректным хэшем ингредиентов",
+  "time" : {
+    "start" : 1749624199893,
+    "stop" : 1749624200353,
+    "duration" : 460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b52b01874225500",
+  "name" : "Создание заказа с авторизацией, без ингредиентов",
+  "time" : {
+    "start" : 1749624189579,
+    "stop" : 1749624191854,
+    "duration" : 2275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c2412710821b69a",
+  "name" : "loginWithoutEmail",
+  "time" : {
+    "start" : 1749624126717,
+    "stop" : 1749624128669,
+    "duration" : 1952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "416c9bb72a291cc4",
+  "name" : "registerUserWithoutEmail",
+  "time" : {
+    "start" : 1749624197629,
+    "stop" : 1749624198072,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5659e247efcd88eb",
+  "name" : "updateLoginUser[4 : update email without another fields]",
+  "time" : {
+    "start" : 1749624158851,
+    "stop" : 1749624160765,
+    "duration" : 1914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce46ead46d147aa2",
+  "name" : "getOrdersWithoutAuth",
+  "time" : {
+    "start" : 1749624113370,
+    "stop" : 1749624117157,
+    "duration" : 3787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be5fb02f1fbc5b39",
+  "name" : "updateLoginUser[8 : update password + name without email]",
+  "time" : {
+    "start" : 1749624175124,
+    "stop" : 1749624177180,
+    "duration" : 2056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "790dac3295a2908b",
+  "name" : "updateWithoutLogin[3 : update name]",
+  "time" : {
+    "start" : 1749624156728,
+    "stop" : 1749624158849,
+    "duration" : 2121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "694fbe22b42b29c",
+  "name" : "updateWithoutLogin[5 : update password without another fields]",
+  "time" : {
+    "start" : 1749624164853,
+    "stop" : 1749624166789,
+    "duration" : 1936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cd61855b15cbc69",
+  "name" : "registerUserWithNameNull",
+  "time" : {
+    "start" : 1749624198979,
+    "stop" : 1749624199408,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "785ffb436f72ce88",
+  "name" : "registerUserWithoutName",
+  "time" : {
+    "start" : 1749624197154,
+    "stop" : 1749624197628,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5db6025c0042872a",
+  "name" : "Создание заказа с авторизацией, с некорректным хэшем ингредиентов",
+  "time" : {
+    "start" : 1749624183096,
+    "stop" : 1749624185190,
+    "duration" : 2094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c2c8e6ac26e9405",
+  "name" : "registerUserWithEmailNull",
+  "time" : {
+    "start" : 1749624196730,
+    "stop" : 1749624197149,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8a11fd9eb308bfc",
+  "name" : "loginWithPasswordNull",
+  "time" : {
+    "start" : 1749624124741,
+    "stop" : 1749624126714,
+    "duration" : 1973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd05343f0fb1b1bb",
+  "name" : "loginWithoutName",
+  "time" : {
+    "start" : 1749624130787,
+    "stop" : 1749624133137,
+    "duration" : 2350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30f4394fa3889f09",
+  "name" : "Создание заказа без авторизации",
+  "time" : {
+    "start" : 1749624200355,
+    "stop" : 1749624200815,
+    "duration" : 460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89cb35749f318983",
+  "name" : "updateWithoutLogin[9 : update email + name without password]",
+  "time" : {
+    "start" : 1749624181156,
+    "stop" : 1749624183089,
+    "duration" : 1933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67c9dd5abc6a0556",
+  "name" : "getOrdersWithAuth",
+  "time" : {
+    "start" : 1749624117209,
+    "stop" : 1749624122677,
+    "duration" : 5468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "333541664be30919",
+  "name" : "updateLoginUser[5 : update password without another fields]",
+  "time" : {
+    "start" : 1749624162732,
+    "stop" : 1749624164850,
+    "duration" : 2118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdd364bfacc4085c",
+  "name" : "updateWithoutLogin[2 : update password]",
+  "time" : {
+    "start" : 1749624152302,
+    "stop" : 1749624154644,
+    "duration" : 2342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4cd263746aee809",
+  "name" : "updateWithoutLogin[4 : update email without another fields]",
+  "time" : {
+    "start" : 1749624160773,
+    "stop" : 1749624162729,
+    "duration" : 1956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43a44ee42a23c5f8",
+  "name" : "loginWithNameNull",
+  "time" : {
+    "start" : 1749624135114,
+    "stop" : 1749624137254,
+    "duration" : 2140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5cf0403730d1900",
+  "name" : "updateWithoutLogin[6 : update name without another fields]",
+  "time" : {
+    "start" : 1749624168774,
+    "stop" : 1749624170751,
+    "duration" : 1977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "305dfd6112c6d646",
+  "name" : "Создание заказа с авторизацией",
+  "time" : {
+    "start" : 1749624185196,
+    "stop" : 1749624189574,
+    "duration" : 4378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "824e632a90766d61",
+  "name" : "registerUserWithPasswordNull",
+  "time" : {
+    "start" : 1749624198073,
+    "stop" : 1749624198530,
+    "duration" : 457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccb91db74231b953",
+  "name" : "loginWithPasswordIncorrect",
+  "time" : {
+    "start" : 1749624122692,
+    "stop" : 1749624124738,
+    "duration" : 2046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ce579981fed15d",
+  "name" : "updateWithoutLogin[8 : update password + name without email]",
+  "time" : {
+    "start" : 1749624177184,
+    "stop" : 1749624179176,
+    "duration" : 1992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d923fce4b38e16",
+  "name" : "registerUserWithoutPassword",
+  "time" : {
+    "start" : 1749624198531,
+    "stop" : 1749624198977,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3f7e4b4712e30ba",
+  "name" : "updateLoginUser[7 : update email + password without name]",
+  "time" : {
+    "start" : 1749624170754,
+    "stop" : 1749624172963,
+    "duration" : 2209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

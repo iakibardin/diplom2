@@ -1,0 +1,84 @@
+{
+  "uid" : "7ab0075207128a0b",
+  "name" : "Создание заказа без авторизации, без ингредиентов",
+  "fullName" : "CreateOrderWithoutLoginTest.createOrderWithoutIngredients",
+  "historyId" : "5cf2261678435ef0f7b895f70d437a8c",
+  "time" : {
+    "start" : 1749624200818,
+    "stop" : 1749624201272,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа без авторизации",
+      "time" : {
+        "start" : 1749624200819,
+        "stop" : 1749624201249,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderWithoutLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderWithoutLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ab0075207128a0b.json",
+  "parameterValues" : [ ]
+}

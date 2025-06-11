@@ -1,0 +1,84 @@
+{
+  "uid" : "da02be27fd5af262",
+  "name" : "Создание заказа ьез авторизации, с некорректным хэшем ингредиентов",
+  "fullName" : "CreateOrderWithoutLoginTest.createOrderWithIncorrectIngredients",
+  "historyId" : "1fa93bc4fa27fc6cf045bc7d7cab47a",
+  "time" : {
+    "start" : 1749624199893,
+    "stop" : 1749624200353,
+    "duration" : 460
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа без авторизации",
+      "time" : {
+        "start" : 1749624199894,
+        "stop" : 1749624200352,
+        "duration" : 458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{ingredients=[Ljava.lang.String;@7dc0b40a}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderWithoutLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithIncorrectIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderWithoutLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Ilya-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "7128@MacBook-Pro-Ilya-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da02be27fd5af262.json",
+  "parameterValues" : [ ]
+}
